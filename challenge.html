@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-challenge.css">
+</head>
+<body>
+    <main>
+        <div class="pantalla">
+            <div class ="caja">
+                <h1 class="titulo">ONE encrypt</h1>
+                <div class="mensaje">
+                    <textarea id="texto"  rows="20" placeholder="Ingrese el texto aqui"></textarea>
+                    <p class="pGris">&#9432; solo letras minusculas y sin acentos</p>
+                    <div class="botones">
+                        <input class="boton" id="encriptar" type="button" value="Encriptar">
+                        <input class="boton" id="desencriptar" type="button" value="Desencriptar">
+                    </div>
+                </div>
+            </div>
+            <section class="respuesta">   
+                <output id="mensajeEncriptado"></output>
+                <div id ="placeholder" >
+                    <img src="img/Muñeco.svg" alt="imagen buscando">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                    <p class="pGris">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </section>
+        </div>
+    </main>   
+</body>
+<footer>
+    <h5 class="rodaPie">
+        Coded by Oscar del angel
+    </h5>
+</footer>
+<script src="encrypt.js"></script>
+</html>
+
